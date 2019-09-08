@@ -7,6 +7,6 @@ public class EndDate extends ProjectSpecificFunctions{
 	}
 public void clickDone() {
 	driver.findElementByXPath("//button[@class='proceed']").click();
-	return new carlist();
+	return;
 }
 }
